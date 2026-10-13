@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Replier.Sdk</id>
+    <version>1.0.0</version>
+    <authors>Replier.net</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <readme>README.md</readme>
+    <projectUrl>https://www.replier.net/</projectUrl>
+    <description>Official .NET SDK for the Replier.net WhatsApp API</description>
+    <tags>whatsapp replier api sdk messaging</tags>
+    <repository type="git" commit="31f93d209d45ef015c7973d87475218668748790" />
+    <dependencies>
+      <group targetFramework="net6.0" />
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="System.Text.Json" version="8.0.5" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="D:\wamp\www\najjar\replier.net\sdk\dotnet\src\Replier\bin\Release\net6.0\Replier.dll" target="lib\net6.0\Replier.dll" />
+    <file src="D:\wamp\www\najjar\replier.net\sdk\dotnet\src\Replier\bin\Release\net6.0\Replier.xml" target="lib\net6.0\Replier.xml" />
+    <file src="D:\wamp\www\najjar\replier.net\sdk\dotnet\src\Replier\bin\Release\netstandard2.0\Replier.dll" target="lib\netstandard2.0\Replier.dll" />
+    <file src="D:\wamp\www\najjar\replier.net\sdk\dotnet\src\Replier\bin\Release\netstandard2.0\Replier.xml" target="lib\netstandard2.0\Replier.xml" />
+    <file src="D:\wamp\www\najjar\replier.net\sdk\dotnet\README.md" target="\README.md" />
+  </files>
+</package>

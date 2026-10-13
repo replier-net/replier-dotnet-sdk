@@ -1,0 +1,14 @@
+D:\wamp\www\najjar\replier.net\sdk\dotnet\src\Replier\bin\Release\net6.0\Replier.deps.json
+D:\wamp\www\najjar\replier.net\sdk\dotnet\src\Replier\bin\Release\net6.0\Replier.dll
+D:\wamp\www\najjar\replier.net\sdk\dotnet\src\Replier\bin\Release\net6.0\Replier.pdb
+D:\wamp\www\najjar\replier.net\sdk\dotnet\src\Replier\bin\Release\net6.0\Replier.xml
+D:\wamp\www\najjar\replier.net\sdk\dotnet\src\Replier\obj\Release\net6.0\Replier.GeneratedMSBuildEditorConfig.editorconfig
+D:\wamp\www\najjar\replier.net\sdk\dotnet\src\Replier\obj\Release\net6.0\Replier.AssemblyInfoInputs.cache
+D:\wamp\www\najjar\replier.net\sdk\dotnet\src\Replier\obj\Release\net6.0\Replier.AssemblyInfo.cs
+D:\wamp\www\najjar\replier.net\sdk\dotnet\src\Replier\obj\Release\net6.0\Replier.csproj.CoreCompileInputs.cache
+D:\wamp\www\najjar\replier.net\sdk\dotnet\src\Replier\obj\Release\net6.0\Replier.sourcelink.json
+D:\wamp\www\najjar\replier.net\sdk\dotnet\src\Replier\obj\Release\net6.0\Replier.dll
+D:\wamp\www\najjar\replier.net\sdk\dotnet\src\Replier\obj\Release\net6.0\refint\Replier.dll
+D:\wamp\www\najjar\replier.net\sdk\dotnet\src\Replier\obj\Release\net6.0\Replier.xml
+D:\wamp\www\najjar\replier.net\sdk\dotnet\src\Replier\obj\Release\net6.0\Replier.pdb
+D:\wamp\www\najjar\replier.net\sdk\dotnet\src\Replier\obj\Release\net6.0\ref\Replier.dll

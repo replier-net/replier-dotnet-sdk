@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Replier</name>
+    </assembly>
+    <members>
+        <member name="P:Replier.ReplierOptions.Email">
+            <summary>Needed only for ListInstances / NewInstance / RenewInstance.</summary>
+        </member>
+        <member name="P:Replier.ReplierOptions.ApiKey">
+            <summary>Needed only for ListInstances / NewInstance / RenewInstance.</summary>
+        </member>
+        <member name="T:Replier.ReplierClient">
+            <summary>
+            Replier.net WhatsApp API client.
+            <code>
+            var replier = new ReplierClient(new ReplierOptions { InstanceId = "12345", Token = "your-token" });
+            await replier.SendMessageAsync("15551234567", "Hello!");
+            </code>
+            </summary>
+        </member>
+        <member name="M:Replier.ReplierClient.#ctor(Replier.ReplierOptions,System.Net.Http.HttpClient)">
+            <param name="httpClient">Optional; pass one from IHttpClientFactory in ASP.NET Core apps.</param>
+        </member>
+        <member name="M:Replier.ReplierClient.CallAsync(System.String,System.Collections.Generic.IDictionary{System.String,System.Object},System.Threading.CancellationToken)">
+            <summary>Call any instance endpoint; instanceid and token are added automatically.</summary>
+        </member>
+        <member name="M:Replier.ReplierClient.CallAccountAsync(System.String,System.Collections.Generic.IDictionary{System.String,System.Object},System.Threading.CancellationToken)">
+            <summary>Call an account endpoint; email and apikey are added automatically.</summary>
+        </member>
+        <member name="M:Replier.ReplierClient.SendFileAsync(System.String,System.String,System.String,System.String,System.Threading.CancellationToken)">
+            <param name="body">File URL or base64 data URI.</param>
+        </member>
+        <member name="T:Replier.ReplierException">
+            <summary>Thrown when the API answers with "success": false, or when the HTTP call fails.</summary>
+        </member>
+        <member name="P:Replier.ReplierException.ErrorCode">
+            <summary>API error code, e.g. "0054".</summary>
+        </member>
+        <member name="P:Replier.ReplierException.Response">
+            <summary>Decoded response body, when there was one.</summary>
+        </member>
+    </members>
+</doc>

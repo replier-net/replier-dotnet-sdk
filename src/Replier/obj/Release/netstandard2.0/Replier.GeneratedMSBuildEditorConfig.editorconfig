@@ -1,0 +1,8 @@
+is_global = true
+build_property.RootNamespace = Replier
+build_property.ProjectDir = D:\wamp\www\najjar\replier.net\sdk\dotnet\src\Replier\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.CsWinRTUseWindowsUIXamlProjections = false
+build_property.EffectiveAnalysisLevelStyle = 
+build_property.EnableCodeStyleSeverity = 
